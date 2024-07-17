@@ -145,7 +145,45 @@ Observations: The account we created is not yet admin. To make this an actual do
 ![Screenshot 2024-07-07 192438](https://github.com/user-attachments/assets/4ba9d0f8-4d82-4e68-8961-a03f78fa210f)
 ![Screenshot 2024-07-07 192512](https://github.com/user-attachments/assets/0e93b914-a83f-4693-b303-5d860b34f9ba)
 
-- Log into Client-1 as the original local admin (labuser)
+- Restart Client-1 from the Azure Portal and Log back in as the original local admin (labuser)
+
+![Screenshot 2024-07-16 203040](https://github.com/user-attachments/assets/3e46981e-22c3-41fc-95a9-3d548b1178a0)
+![Screenshot 2024-07-16 200616](https://github.com/user-attachments/assets/0a69ef72-a362-411b-87cb-56611bc20c1c)
+![Screenshot 2024-07-16 200700](https://github.com/user-attachments/assets/79d4f7db-a32c-465c-9acf-0068015a88da)
+![Screenshot 2024-07-16 200739](https://github.com/user-attachments/assets/f886fb43-cc60-4b8c-b729-b9a592d7a161)
+![Screenshot 2024-07-16 201647](https://github.com/user-attachments/assets/db84d012-2bf9-4b83-8426-ea011215400d)
+![Screenshot 2024-07-16 203421](https://github.com/user-attachments/assets/439e02d3-956d-4912-92b3-ff10d4107a6e)
+![Screenshot 2024-07-16 203524](https://github.com/user-attachments/assets/f3c341a3-5a1c-4264-ad49-2385ff90da4b)
+![Screenshot 2024-07-16 203931](https://github.com/user-attachments/assets/ad05125e-fb88-4909-8a4e-efec2eb976f4)
+![Screenshot 2024-07-16 203938](https://github.com/user-attachments/assets/3536e002-032a-46c5-b812-f1903a407044)
+![Screenshot 2024-07-16 203950](https://github.com/user-attachments/assets/1ab20918-7265-4aef-985d-71de2b2a7f28)
+
+- Log back in to Client-1 as "mydomain.com\jane_admin" and set up so that normal users are able to remote into Client-1
+
+![Screenshot 2024-07-07 184904](https://github.com/user-attachments/assets/190cb2f4-0b9a-4667-9b9e-acd570e08991)
+![Annotation 2024-07-10 002817](https://github.com/user-attachments/assets/e4f49c02-b4ba-46c4-a71b-34bf589c619c)
+![Annotation 2024-07-10 002930](https://github.com/user-attachments/assets/ee2a7fc9-44e4-480a-b4e6-0b9684d79a87)
+![Annotation 2024-07-10 003041](https://github.com/user-attachments/assets/ba5e2d8a-2111-4e05-a166-7787898055eb)
+![Annotation 2024-07-10 003114](https://github.com/user-attachments/assets/6085de5e-4651-4ce2-98e5-e4312c0f6983)
+![Annotation 2024-07-10 003138](https://github.com/user-attachments/assets/42b15f4f-29f5-4efb-aecc-d300ecfd1ba0)
+
+- Go to Active Directory and select the users under your domain name (mydomain). Observations: Notice that all the users can now log in to Client-1
+
+![Screenshot 2024-07-16 210031](https://github.com/user-attachments/assets/613d2b62-2c07-4298-a11d-f8c40bcf5bf6)
+
+<h2>Create additional users and log into Client-1 with one of the users</h2>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
