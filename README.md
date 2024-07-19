@@ -173,6 +173,55 @@ Observations: The account we created is not yet admin. To make this an actual do
 
 <h2>Create additional users and log into Client-1 with one of the users</h2>
 
+- Log in to DC-1 as "jane_admin"
+
+![Screenshot 2024-07-07 184904](https://github.com/user-attachments/assets/af2380f1-c9bf-4228-8e4a-40da14514a1e)
+
+- Open Powershell ISE as an administrator (Powershell ISE is a native scriptive language)
+
+![Screenshot 2024-07-09 194424](https://github.com/user-attachments/assets/65275b76-704a-45fe-b1c8-baf480c3fb54)
+
+- Select New Script
+
+![Screenshot 2024-07-09 194617](https://github.com/user-attachments/assets/4099c19f-55ed-49c5-b57b-f1ecbb061f6c)
+
+- Copy code and paste it in Powershell ISE (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
+
+![Screenshot 2024-07-18 194244](https://github.com/user-attachments/assets/f24db28c-3b3c-419e-ab87-13d13b29e8cd)
+![Screenshot 2024-07-09 194834](https://github.com/user-attachments/assets/727ad36b-e29e-4253-9fe2-d22cab5f154d)
+
+- Run script
+
+![Screenshot 2024-07-09 194851](https://github.com/user-attachments/assets/1093c07b-ef99-4034-aa22-a06fdf68eff9)
+
+The script will run and will create our users.
+![Screenshot 2024-07-09 194908](https://github.com/user-attachments/assets/63995ea7-b5fc-43b1-aee7-c2a1e79b7254)
+
+- Go to Active Directory > mydomain.com > _EMPLOYESS.
+
+As you can see here we have created our users. This are all random names. 
+![Screenshot 2024-07-09 194958](https://github.com/user-attachments/assets/d91486b2-d2a0-4240-bd9e-e8679c35cd14)
+
+I'm going to use one random name and log in as that user. For the sake of this lab I will purposely type the wrong password as many times as possible. I will then unlock the users account as an admin.
+![Screenshot 2024-07-09 195056](https://github.com/user-attachments/assets/0faef9af-6bec-4d7f-b98c-304ae058d922)
+
+I chose this random user. Make sure to remember the name when trying to unlock the account.
+![Screenshot 2024-07-09 195106](https://github.com/user-attachments/assets/75557e96-9e60-4562-93fb-eba6a86fb7e1)
+
+At this point I have type the wrong password for more than 10 times. Account should be locked by now.
+![Screenshot 2024-07-09 195734](https://github.com/user-attachments/assets/f1243e8c-7962-4db7-9f32-9b6988e043ff)
+
+Go to DC-1 Active Directory and unlock the users account. The user will now be able to log in. There is also the option to change password if the user have forgotten his/her password.
+![Screenshot 2024-07-09 195907](https://github.com/user-attachments/assets/afac9602-5fbf-43ae-8b8d-bf1ede420e16)
+
+This brings us the conclusion for this Lab. Thank you for watching! :)
+
+
+
+
+
+
+
 
 
 
